@@ -19,7 +19,7 @@ namespace AS2122_4E_INF_Prof_ProvaGestioneArticoli
         
         public string UnitaMisura { get; }
         
-        double Prezzo { get; }
+        public double Prezzo { get; }
 
         public Articolo(int codice, string descrizione, string unitaMisura, double prezzo)
         {
